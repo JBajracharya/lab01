@@ -1,0 +1,58 @@
+header {
+    background-color: red;
+}
+
+aside {
+    background-color: blue;
+}
+
+#liElemC {
+    background-color: blueviolet;
+}
+
+#liElemD {
+    background-color: greenyellow;
+}
+#liElemE {
+    background-color: rgb(105, 22, 57);
+}
+#liElemF {
+    background-color: rgb(148, 78, 32);
+}
+#liElemG {
+    background-color: rgb(161, 116, 56);
+}
+#liElemH {
+    background-color: rgb(51, 122, 163);
+}
+
+@media (min-width: 768px) {
+    header {
+        background-color: rgb(28, 59, 73);
+    }
+    
+    aside {
+        background-color: rgb(109, 138, 55);
+    }
+    
+    #liElemC {
+        background-color: rgb(29, 78, 170);
+    }
+    
+    #liElemD {
+        background-color: rgb(160, 18, 141);
+    }
+    #liElemE {
+        background-color: rgb(175, 136, 53);
+    }
+    #liElemF {
+        background-color: rgb(69, 63, 153);
+    }
+    #liElemG {
+        background-color: rgb(103, 161, 56);
+    }
+    #liElemH {
+        background-color: rgb(219, 125, 37);
+    }
+    
+}
