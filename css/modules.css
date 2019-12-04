@@ -1,58 +1,62 @@
-header {
+#a {
     background-color: red;
 }
 
-aside {
+#b {
     background-color: blue;
 }
 
-#liElemC {
+#c {
     background-color: blueviolet;
 }
 
-#liElemD {
+#d {
     background-color: greenyellow;
 }
-#liElemE {
+#e {
     background-color: rgb(105, 22, 57);
 }
-#liElemF {
+#f {
     background-color: rgb(148, 78, 32);
 }
-#liElemG {
+#g {
     background-color: rgb(161, 116, 56);
 }
-#liElemH {
+#h {
     background-color: rgb(51, 122, 163);
 }
-
+#i {
+    background-color: rgb(118, 24, 141);
+}
 @media (min-width: 768px) {
-    header {
+    #a {
         background-color: rgb(28, 59, 73);
     }
     
-    aside {
+    #b {
         background-color: rgb(109, 138, 55);
     }
     
-    #liElemC {
+    #c {
         background-color: rgb(29, 78, 170);
     }
     
-    #liElemD {
+    #d {
         background-color: rgb(160, 18, 141);
     }
-    #liElemE {
+    #e {
         background-color: rgb(175, 136, 53);
     }
-    #liElemF {
+    #f {
         background-color: rgb(69, 63, 153);
     }
-    #liElemG {
+    #g {
         background-color: rgb(103, 161, 56);
     }
-    #liElemH {
+    #h {
         background-color: rgb(219, 125, 37);
     }
-    
+    #i {
+        background-color: rgb(113, 27, 170);
+    }
 }
