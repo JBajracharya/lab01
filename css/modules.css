@@ -1,3 +1,4 @@
+/* mobile view */
 #a {
     background-color: red;
 }
@@ -28,6 +29,8 @@
 #i {
     background-color: rgb(118, 24, 141);
 }
+
+/* tablet view */
 @media (min-width: 768px) {
     #a {
         background-color: rgb(28, 59, 73);
@@ -59,4 +62,39 @@
     #i {
         background-color: rgb(113, 27, 170);
     }
+}
+
+/* desktop view */
+@media (min-width: 961px) {
+    #a {
+        background-color: rgb(140, 204, 103);
+    }
+    
+    #b {
+        background-color: rgb(80, 32, 72);
+    }
+    
+    #c {
+        background-color: rgb(165, 108, 34);
+    }
+    
+    #d {
+        background-color: rgb(47, 39, 68);
+    }
+    #e {
+        background-color: rgb(27, 126, 27);
+    }
+    #f {
+        background-color: rgb(192, 24, 24);
+    }
+    #g {
+        background-color: rgb(178, 207, 49);
+    }
+    #h {
+        background-color: rgb(219, 37, 180);
+    }
+    #i {
+        background-color: rgb(219, 223, 30);
+    }
+
 }
